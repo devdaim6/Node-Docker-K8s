@@ -1,0 +1,99 @@
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T08:59:46.274Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:05:44.725Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:10:12.877Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:10:43.265Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:19:34.712Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:21:21.965Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:22:46.267Z"}
+{"level":"info","message":"Server started on port 5000","timestamp":"2024-09-19T09:25:08.703Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2024-09-19T10:03:31.051Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2024-09-19T10:08:29.662Z"}
+{"ip":"::1","level":"info","message":"GET /api/users","timestamp":"2024-09-19T10:11:57.139Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /users","timestamp":"2024-09-19T10:11:57.151Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /api/users","timestamp":"2024-09-19T10:11:57.157Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /users","timestamp":"2024-09-19T10:11:57.161Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"OPTIONS /api/users/register","timestamp":"2024-09-19T10:12:18.469Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"POST /api/users/register","timestamp":"2024-09-19T10:12:18.472Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"POST /users/register","timestamp":"2024-09-19T10:12:18.486Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /api/users","timestamp":"2024-09-19T10:13:48.368Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /api/users","timestamp":"2024-09-19T10:13:48.380Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /users","timestamp":"2024-09-19T10:13:48.383Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /users","timestamp":"2024-09-19T10:13:48.388Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"OPTIONS /api/users/login","timestamp":"2024-09-19T10:13:57.405Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"POST /api/users/login","timestamp":"2024-09-19T10:13:57.409Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"POST /users/login","timestamp":"2024-09-19T10:13:57.422Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /api/users","timestamp":"2024-09-19T10:14:31.605Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /api/users","timestamp":"2024-09-19T10:14:31.619Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"GET /users","timestamp":"2024-09-19T10:14:31.625Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:14:31.626Z"}
+{"ip":"::1","level":"info","message":"GET /users","timestamp":"2024-09-19T10:14:31.632Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:14:31.633Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:14:31.860Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:14:31.972Z"}
+{"ip":"::1","level":"info","message":"OPTIONS /api/users/login","timestamp":"2024-09-19T10:14:39.519Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"POST /api/users/login","timestamp":"2024-09-19T10:14:39.522Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"ip":"::1","level":"info","message":"POST /users/login","timestamp":"2024-09-19T10:14:39.536Z","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:14:57.535Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:14:57.547Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:14:57.900Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:14:58.112Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:16:19.543Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:16:19.552Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:16:19.674Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:16:20.141Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:19:20.957Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:19:20.963Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:19:21.107Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:19:21.266Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:20:03.725Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:20:03.732Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:20:03.889Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:20:04.314Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:21:57.009Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:21:57.013Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:22:44.437Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:22:44.439Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:22:44.445Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:22:44.446Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:22:49.491Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:22:49.493Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:22:53.107Z"}
+{"level":"info","message":"New user registered: 2","timestamp":"2024-09-19T10:22:53.322Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:22:57.927Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:22:57.929Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:22:57.930Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:22:57.932Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:28:51.162Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:28:51.163Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:28:51.349Z"}
+{"level":"info","message":"Retrieved 1 users","timestamp":"2024-09-19T10:28:51.369Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:29:31.970Z"}
+{"level":"info","message":"New user registered: 3","timestamp":"2024-09-19T10:29:32.099Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:29:35.208Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:29:35.209Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:29:35.229Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:29:35.231Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:29:42.126Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:29:42.128Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:29:43.909Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:29:43.912Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:29:44.462Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:29:44.464Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:29:45.015Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:29:45.017Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:29:48.948Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:29:48.949Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:29:48.960Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:29:48.962Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:32:51.183Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-19T10:32:51.237Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:32:51.476Z"}
+{"level":"info","message":"Retrieved 2 users","timestamp":"2024-09-19T10:32:51.621Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:32:56.265Z"}
+{"level":"warn","message":"Registration attempt with existing email: devdaim@proton.me","timestamp":"2024-09-19T10:32:56.269Z"}
+{"level":"info","message":"Login attempt for email: devdaim@proton.me","timestamp":"2024-09-19T10:32:59.112Z"}
+{"level":"info","message":"User logged in successfully: 3","timestamp":"2024-09-19T10:32:59.308Z"}
+{"level":"info","message":"Registering new user","timestamp":"2024-09-19T10:35:21.836Z"}
+{"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:35:21.838Z"}
+{"level":"info","message":"Login attempt for email: daimdev6@gmail.com","timestamp":"2024-09-19T10:35:26.193Z"}
+{"level":"info","message":"User logged in successfully: 1","timestamp":"2024-09-19T10:35:26.264Z"}

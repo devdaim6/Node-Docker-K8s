@@ -1,0 +1,39 @@
+name: Node.js CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Build Docker image
+        run: |
+          docker build -t devdaim/node-server:latest .
+
+      - name: Log in to DockerHub
+        run: echo "${{ secrets.DOCKERHUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+
+      - name: Push Docker image to DockerHub
+        run: |
+          docker tag devdaim/node-server devdaim/node-server:latest
+          docker push devdaim/node-server:latest
+
+      - name: Deploy to Kubernetes
+        run: |
+          kubectl set image deployment/node-app node-app=devdaim/node-server:latest --record
