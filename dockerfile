@@ -8,7 +8,7 @@ WORKDIR /app
 
 # Copy package.json and install dependencies
 COPY package.json ./
-RUN npm install
+RUN npm install --force
 
 # Copy the rest of the app
 COPY . .
@@ -16,5 +16,9 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE 5000
 
-# Start the app
-CMD ["npm", "start"]
+# Copy the start script
+COPY start.sh ./
+
+# Start the app using the script
+CMD ["./start.sh"]
+
