@@ -1,24 +1,19 @@
-// const { MongoClient } = require("mongodb");
+require('dotenv').config();
+const { MongoClient } = require('mongodb');
 
-// const uri = process.env.MONGODB_URI;
-// const dbName = process.env.MONGODB_DB_NAME;
+async function connectToDatabase() {
+    const uri = process.env.MONGODB_URI;
+    const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
-// const client = new MongoClient(uri, {
-//   maxPoolSize: 10,
-// });
+    try {
+        await client.connect();
+        console.log('Connected to MongoDB');
+        // Perform operations here...
+    } catch (error) {
+        console.error('MongoDB connection error:', error);
+    } finally {
+        await client.close();
+    }
+}
 
-// let db;
-
-// async function connectToDatabase() {
-//   if (!db) {
-//     await client.connect();
-//     db = client.db(dbName);
-//     console.log("Connected to MongoDB");
-//   }
-//   return db;
-// }
-
-// module.exports = {
-//   connectToDatabase,
-//   getDb: () => db,
-// };
+exports.connectToDatabase=connectToDatabase;

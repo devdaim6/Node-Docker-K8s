@@ -16,9 +16,6 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE 5000
 
-# Copy the start script
-COPY start.sh ./
-
-# Start the app using the script
-CMD ["./start.sh"]
-
+COPY start.sh /app/start.sh
+RUN chmod +x /app/start.sh
+CMD ["/app/start.sh"]

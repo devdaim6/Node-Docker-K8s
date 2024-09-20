@@ -97,3 +97,10 @@
 {"level":"warn","message":"Registration attempt with existing email: daimdev6@gmail.com","timestamp":"2024-09-19T10:35:21.838Z"}
 {"level":"info","message":"Login attempt for email: daimdev6@gmail.com","timestamp":"2024-09-19T10:35:26.193Z"}
 {"level":"info","message":"User logged in successfully: 1","timestamp":"2024-09-19T10:35:26.264Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-20T08:29:01.013Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-20T08:29:38.291Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-20T08:30:21.837Z"}
+{"level":"info","message":"Retrieved 0 users","timestamp":"2024-09-20T08:30:21.993Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-20T08:33:27.272Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-20T08:34:24.957Z"}
+{"level":"info","message":"Fetching all users","timestamp":"2024-09-20T08:38:58.521Z"}

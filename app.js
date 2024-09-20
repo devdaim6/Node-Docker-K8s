@@ -1,7 +1,6 @@
 const express = require("express");
 const { setupMiddleware } = require("./utils/setupMiddleware");
-//const { setupDatabase } = require("./utils/setupDB");
-// const { connectToDatabase } = require("./db/mongoConnection");
+const { connectToDatabase } = require("./db/mongoConnection");
 const dotenv = require("dotenv");
 const { userRoutes } = require("./routes/user");
 const { setupLogger } = require("./utils/logger");
@@ -26,8 +25,7 @@ app.use((req, res, next) => {
 // });
 
 //connect to database
-// connectToDatabase();
-//setupDatabase();
+connectToDatabase();
 
 // Middleware setup
 setupMiddleware(app);
